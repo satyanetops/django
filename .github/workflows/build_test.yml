@@ -42,7 +42,7 @@ jobs:
         aws_access_key: AKIAUIQSWRYR2UGOGRKO
         aws_secret_key: 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
         application_name: django_github_actions_aws
-        environment_name: Djangogithubactionsaws
-        version_label: 12350
+        environment_name: Djangogithubactionsaws-env
+        version_label: 12357
         region: "us-east-1"
         deployment_package: deploy.zip
