@@ -39,8 +39,8 @@ jobs:
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v20
       with:
-        aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws_access_key: AKIAUIQSWRYR2UGOGRKO
+        aws_secret_key: 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
         application_name: django application
         environment_name: djangoapplication-env
         version_label: 12348
