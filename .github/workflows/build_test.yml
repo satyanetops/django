@@ -46,3 +46,6 @@ jobs:
         version_label: 12363
         region: "us-east-1"
         deployment_package: deploy.zip
+        existing_bucket_name: elasticbeanstalk-us-east-1-293170744867
+        use_existing_version_if_available: true
+        
